@@ -8,12 +8,23 @@ function esPositivo(num) {
    // Si el número es negativo ---> "Es negativo".
    // Si el número es 0, devuelve false.
    // Tu código:
+   if (num >= 1){
+      return "Es positivo";
+   }
+   else if (num <= -1){
+      return "Es negativo";
+   }
+   else (num == 0) 
+   {return false;
+   }
 }
+
 
 function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
    // Ejemplo: "hello world" ---> "hello world!"
    // Tu código:
+
 }
 
 function combinarNombres(nombre, apellido) {
@@ -60,12 +71,12 @@ function esVocal(letra) {
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
    esPositivo,
-   agregarSimboloExclamacion,
-   combinarNombres,
-   obtenerSaludo,
-   obtenerAreaRectangulo,
-   retornarPerimetro,
-   areaDelTriangulo,
-   deEuroAdolar,
-   esVocal,
+   ///agregarSimboloExclamacion,
+   ///combinarNombres,
+   ///obtenerSaludo,
+   ///obtenerAreaRectangulo,
+   ///retornarPerimetro,
+   ///areaDelTriangulo,
+   ///deEuroAdolar,
+   ///esVocal,
 };
